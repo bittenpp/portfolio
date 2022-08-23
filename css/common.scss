@@ -1,0 +1,219 @@
+/* =====================================header ==================== */
+html,
+body {
+    margin: 0;
+    width: 100%;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,p {
+    margin: 0;
+}
+
+// img {
+//     // vertical-align: top;
+// }
+span,
+b,
+i,
+em,
+a,
+strong,
+mark {
+    display: inline-block;
+}
+table {
+    border-collapse: collapse;
+}
+
+a{text-decoration: none; }
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat","Noto Sans KR", sans-serif;
+}
+
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    padding:0 20%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    &.active{
+        background-color: #eeedeb;
+        padding: 3%;
+    }
+    .logo{
+        a{
+            margin-left: 210px;
+            img{
+                width: 40%;
+            }
+        }
+
+    }
+    .menu{
+        text-decoration: none;
+        margin-right:100px;
+
+        // &:hover{
+        //     &::after{
+        //         border-bottom: 3px;
+        //         color: #000;
+        //     }
+        
+        a{
+            color: #000;
+            padding-left: 100px;
+            &::after{
+                content: '';
+                display: block;
+                width: 100%;
+                // padding-bottom: 5px;
+                border-bottom: 2px solid transparent;
+            }
+
+            &:hover{
+                &::after{
+                    border-bottom: 2px solid #222;
+                }
+            }       
+            }
+            
+            img{
+                width:35%;
+            }
+        a:nth-child(4){
+            &:hover{
+                &::after{
+                    display: none;
+                }
+            }
+        }  
+        }
+    }
+
+
+// ================================
+// footer
+
+footer{
+    position: relative;
+    padding-top: 125px;
+    overflow: hidden;
+    // svg{
+    //     width: 100%;
+    //     height: 100%;
+    //     // border: 1px solid #222;
+    //     text{
+    //         fill: transparent;
+    //         stroke: #222;
+    //         stroke-width: 1;
+    //         // font-size: 200px;
+    //         font-family: 'Montserrat', sans-serif;
+    //         font-size: 120px;
+    //         font-weight: 700;
+    //     }
+    // }
+
+    h2{
+        // width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 120px;
+        font-weight: 700;
+        // margin-bottom: 100px;
+        color: #ebebeb;
+        white-space: nowrap;
+        text-shadow:   -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+        // -webkit-text-fill-color: transparent;
+        // -webkit-text-stroke-width: 1px;
+        // -webkit-text-stroke-color: black;
+        display: inline-flex;
+        transform: translateX(0);
+        animation: h2 6s infinite linear;
+        span{
+            flex-shrink: 0;
+        }
+    }
+    
+    @keyframes h2{
+        0%{}
+        100%{transform: translateX(-50%);}
+    }
+    
+    .list{
+        display: block;
+        margin-left: 60%;
+        margin-top: 5%;
+        div{
+            a{
+                font-family: 'Inter', sans-serif;
+                font-size: 25px;
+                font-weight: 400;
+                color: #000;
+                margin-bottom: 18px;
+                margin-left: 40px;
+            }
+            p{
+                width: 78%;
+                transform: translateY(-20px);
+                img{
+                    width: 520px;
+                }
+                margin: 0;
+            }
+        }
+    }
+
+    .arw{
+        position: absolute;
+        right: 10%;
+        img{
+            width: 180px; height: 100px;
+        }
+    }
+    
+    .top{
+        position: absolute;
+        top: 60%; left: 80%;
+
+        div{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;    
+            font-weight: 500;
+            position: absolute;
+            top: 235px; left: 20%;
+            transform: translateX(-65px);
+        }
+        a{
+            img{
+                margin-top: 150px;
+                width: 120px; height: 120px;
+            }
+        }
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 150px 0 80px 0;
+        text-align: center;
+    }
+}

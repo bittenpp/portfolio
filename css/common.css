@@ -1,0 +1,177 @@
+/* =====================================header ==================== */
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure, p {
+  margin: 0;
+}
+
+span,
+b,
+i,
+em,
+a,
+strong,
+mark {
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  width: 100%;
+  padding: 0 20%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+header.active {
+  background-color: #eeedeb;
+  padding: 3%;
+}
+header .logo a {
+  margin-left: 210px;
+}
+header .logo a img {
+  width: 40%;
+}
+header .menu {
+  text-decoration: none;
+  margin-right: 100px;
+}
+header .menu a {
+  color: #000;
+  padding-left: 100px;
+}
+header .menu a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+}
+header .menu a:hover::after {
+  border-bottom: 2px solid #222;
+}
+header .menu img {
+  width: 35%;
+}
+header .menu a:nth-child(4):hover::after {
+  display: none;
+}
+
+footer {
+  position: relative;
+  padding-top: 125px;
+  overflow: hidden;
+}
+footer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  color: #ebebeb;
+  white-space: nowrap;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  display: inline-flex;
+  transform: translateX(0);
+  -webkit-animation: h2 6s infinite linear;
+          animation: h2 6s infinite linear;
+}
+footer h2 span {
+  flex-shrink: 0;
+}
+@-webkit-keyframes h2 {
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes h2 {
+  100% {
+    transform: translateX(-50%);
+  }
+}
+footer .list {
+  display: block;
+  margin-left: 60%;
+  margin-top: 5%;
+}
+footer .list div a {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 18px;
+  margin-left: 40px;
+}
+footer .list div p {
+  width: 78%;
+  transform: translateY(-20px);
+  margin: 0;
+}
+footer .list div p img {
+  width: 520px;
+}
+footer .arw {
+  position: absolute;
+  right: 10%;
+}
+footer .arw img {
+  width: 180px;
+  height: 100px;
+}
+footer .top {
+  position: absolute;
+  top: 60%;
+  left: 80%;
+}
+footer .top div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  top: 235px;
+  left: 20%;
+  transform: translateX(-65px);
+}
+footer .top a img {
+  margin-top: 150px;
+  width: 120px;
+  height: 120px;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 150px 0 80px 0;
+  text-align: center;
+}/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap");
+@import url("./common.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@800&display=swap");
+html {
+  width: 100%;
+  background-color: #222;
+  color: #EEEDEB;
+}
+
+header.active {
+  background-color: #222;
+  border-radius: 20px;
+  padding: 3%;
+}
+header .menu a {
+  color: #EEEDEB;
+}
+header .menu a:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #EEEDEB;
+}
+
+.pg1 {
+  height: 800px;
+  position: relative;
+}
+.pg1 div {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 20%;
+  transform: translateY(200px);
+}
+.pg1 .container .title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  position: absolute;
+  left: 19.8%;
+  top: 30%;
+  z-index: 99;
+}
+.pg1 .container .title span {
+  color: #EEEDEB;
+  width: 100%;
+  display: block;
+  transform: translateY(-50px);
+  opacity: 0;
+  -webkit-animation-name: titleAnimation;
+          animation-name: titleAnimation;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.pg1 .container .title span:first-child {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.pg1 .container .title span:last-child {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+@-webkit-keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+}
+.pg1 p {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  z-index: 1;
+}
+.pg1 p img {
+  width: 198px;
+  height: 165px;
+}
+.pg1 .dwn .lft div {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  transform: translateX(-550px);
+  margin-bottom: 15px;
+}
+.pg1 .dwn .lft p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  transform: translateX(-450px);
+}
+.pg1 .dwn .right div {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  transform: translateX(-550px);
+  color: #FFAD00;
+  margin-bottom: 15px;
+}
+.pg1 .dwn .right p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFAD00;
+  transform: translateX(-450px);
+}
+
+.ftr {
+  width: 1920px;
+  height: 340px;
+  background-color: #222;
+  color: #EEEDEB;
+  position: relative;
+  margin-bottom: 0%;
+}
+.ftr .up h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 270px;
+  padding-top: 80px;
+}
+.ftr .up .link {
+  margin-left: 270px;
+  margin-top: 30px;
+  color: #EEEDEB;
+}
+.ftr .up .link a {
+  width: 12%;
+  color: #EEEDEB;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+.ftr .up .link a:nth-child(3) {
+  padding-left: 20px;
+}
+.ftr .up .link a:nth-child(4) {
+  padding-left: 60px;
+}
+.ftr .up .arw {
+  position: absolute;
+  right: 10%;
+}
+.ftr .up .arw img {
+  width: 180px;
+  height: 100px;
+}
+.ftr .dwn {
+  margin: 50px 0 0 268px;
+}/*# sourceMappingURL=contact.css.map */

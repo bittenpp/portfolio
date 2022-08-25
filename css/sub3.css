@@ -1,9 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap");
+@import url("./common.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@800&display=swap");
 html {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #EEEDEB;
 }
 
-div img {
+.pg1 {
+  height: 620px;
+  position: relative;
+}
+.pg1 p {
+  margin-top: 12%;
+  margin-left: 15%;
+}
+.pg1 p img {
+  width: 325px;
+  height: 30px;
+}
+.pg1 .txt h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 130px;
+  color: #ebebeb;
+  white-space: nowrap;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  padding-top: 70px;
+  margin-left: 14%;
+}
+.pg1 .txt p {
+  position: absolute;
+  left: 30%;
+  height: 0;
+  transform: translateY(-500px);
+}
+.pg1 .txt p img {
+  width: 207px;
+  height: 172px;
+}
+.pg1 .txt .tt {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #FFAD00;
+  padding-bottom: 5px;
+  margin-left: 15%;
+}
+.pg1 .txt .mini {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #8f8f8f;
+  margin-left: 15%;
+}
+.pg1 .txt .btm {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #8f8f8f;
+  padding-top: 10px;
+  margin-left: 15%;
+}
+
+.pg2 .rgh {
+  padding-top: 60px;
+}
+.pg2 .rgh h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFAD00;
+  padding-bottom: 15px;
+  margin-left: 15%;
+}
+.pg2 .rgh div {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #222;
+  margin-left: 15%;
+  padding-bottom: 60px;
+}
+.pg2 .rgh p {
+  margin-left: 15%;
+}
+.pg2 .rgh p img {
+  width: 900px;
+  height: 580px;
+}
+.pg2 .ardw {
+  margin-left: 80%;
+}
+.pg2 .ardw img {
+  width: 120px;
+  height: 120px;
+}
+
+.pg3 img {
   width: 100%;
+}
+
+.pg4 img {
+  width: 100%;
+}
+
+.pg5 {
+  transform: translateY(-143px);
+}
+.pg5 img {
+  width: 100%;
+}
+
+.pg6 img {
+  width: 100%;
+}
+
+.pg13 {
+  width: 1920px;
+  height: 340px;
+  background-color: #EEEDEB;
+  position: relative;
+}
+.pg13 .sq {
+  text-align: center;
+}
+.pg13 .sq h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 25px;
+  position: absolute;
+  left: 29%;
+  top: 35%;
+  z-index: 99;
+}
+.pg13 .sq div {
+  position: absolute;
+  left: 29%;
+  top: 30%;
+  z-index: 1;
+}
+.pg13 .sq div img {
+  width: 830px;
+  height: 73px;
+}
+.pg13 p {
+  text-align: center;
+  padding-top: 220px;
+}
+
+.sticky {
+  margin-left: 95%;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+}
+.sticky .p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #222;
+}
+.sticky .p a {
+  text-decoration: none;
+  color: #222;
+}
+.sticky .p div {
+  display: none;
+  text-align: left;
+}
+.sticky .p:hover a {
+  color: #FFAD00;
+}
+.sticky .p:hover div {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFAD00;
+}
+.sticky p img {
+  padding-left: 10px;
+}
+.sticky .n {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #222;
+}
+.sticky .n a {
+  text-decoration: none;
+  color: #222;
+}
+.sticky .n div {
+  display: none;
+  text-align: left;
+}
+.sticky .n:hover a {
+  color: #FFAD00;
+}
+.sticky .n:hover div {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFAD00;
 }/*# sourceMappingURL=sub3.css.map */

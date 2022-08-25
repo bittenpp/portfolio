@@ -4,11 +4,12 @@
 html {
   background-color: #EEEDEB;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .pg1 {
   position: relative;
-  width: 1920px;
   height: 100vh;
   transform: translateY(-50px);
 }
@@ -108,7 +109,6 @@ html {
   }
 }
 .line {
-  width: 100%;
   position: absolute;
   left: 50%;
   top: 750px;
@@ -118,7 +118,6 @@ html {
 .pg2 {
   margin-top: 60px;
   position: relative;
-  width: 1920px;
   height: 1000px;
 }
 .pg2 .cma {
@@ -156,7 +155,7 @@ html {
 .pg3 {
   position: relative;
   margin-top: 120px;
-  width: 1920px;
+  width: 100%;
   height: 800px;
   display: flex;
 }
@@ -206,7 +205,7 @@ html {
 
 .pg4 {
   background-color: #222;
-  width: 1920px;
+  width: 100%;
   height: 580px;
   margin-top: 0;
   transform: translateY(-80px);
@@ -330,7 +329,6 @@ html {
 }
 
 .pg5 {
-  width: 1920px;
   height: 550px;
   position: relative;
 }
@@ -430,7 +428,6 @@ html {
 
 .pg6 {
   background-color: #e3e3e3;
-  width: 1920px;
   height: 580px;
   position: relative;
 }
@@ -517,7 +514,6 @@ html {
 }
 
 .pg7 {
-  width: 1920px;
   height: 1030px;
   position: relative;
 }
@@ -685,19 +681,19 @@ html {
 }
 
 .pg8 p img {
-  width: 1920px;
+  width: 100%;
 }
 
 .pg9 p img {
-  width: 1920px;
+  width: 100%;
 }
 
 .pg10 p img {
-  width: 1920px;
+  width: 100%;
+  padding: 0;
 }
 
 .pg11 {
-  width: 1920px;
   height: 1050px;
   background-color: #ffffff;
   position: relative;
@@ -750,7 +746,6 @@ html {
 
 .pg111 {
   background-color: #EEEDEB;
-  width: 1920px;
   height: 650px;
 }
 .pg111 h2 {
@@ -776,7 +771,6 @@ html {
 }
 
 .pg112 {
-  width: 1920px;
   height: 540px;
   background-color: #ffffff;
 }
@@ -805,18 +799,17 @@ html {
 }
 
 .pg12 p img {
-  width: 1920px;
+  width: 100%;
 }
 
 .pg13 {
   transform: translateY(-4px);
 }
 .pg13 .right p img {
-  width: 1920px;
+  width: 100%;
 }
 
 .pg14 {
-  width: 1920px;
   height: 400px;
   position: relative;
 }
@@ -851,7 +844,6 @@ html {
 }
 
 .pg15 {
-  width: 1920px;
   height: 340px;
   background-color: #ffffff;
   position: relative;
@@ -886,7 +878,6 @@ html {
 }
 
 .ftr {
-  width: 1920px;
   height: 340px;
   background-color: #ffffff;
   position: relative;

@@ -218,4 +218,49 @@ html {
   font-weight: 400;
   font-size: 15px;
   color: #FFAD00;
+}
+
+.ftr {
+  width: 1920px;
+  height: 340px;
+  background-color: #EEEDEB;
+  position: relative;
+  margin-bottom: 0%;
+}
+.ftr .up h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 270px;
+  padding-top: 80px;
+}
+.ftr .up .link {
+  margin-left: 270px;
+  margin-top: 30px;
+}
+.ftr .up .link a {
+  width: 12%;
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+.ftr .up .link a:nth-child(3) {
+  padding-left: 20px;
+}
+.ftr .up .link a:nth-child(4) {
+  padding-left: 60px;
+}
+.ftr .up .arw {
+  position: absolute;
+  right: 10%;
+}
+.ftr .up .arw img {
+  width: 180px;
+  height: 100px;
+}
+.ftr .dwn {
+  margin: 50px 0 0 268px;
 }/*# sourceMappingURL=sub3.css.map */

@@ -130,27 +130,34 @@ html {
   font-weight: 700;
   font-size: 30px;
   color: #222;
+  position: relative;
 }
-.sticky .p a {
+.sticky .p > a {
   text-decoration: none;
   color: #222;
 }
-.sticky .p div {
+.sticky .p > div {
+  width: 100px;
   display: none;
-  text-align: left;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  transition: 0.5s;
 }
-.sticky .p:hover a {
+.sticky .p > div > a {
   color: #FFAD00;
 }
-.sticky .p:hover div {
-  display: inline-block;
+.sticky .p:hover > div {
+  display: block;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   color: #FFAD00;
+  transform: translateX(-30px);
 }
-.sticky p img {
+.sticky > p > img {
   padding-left: 10px;
 }
 .sticky .n {
@@ -159,35 +166,41 @@ html {
   font-weight: 700;
   font-size: 30px;
   color: #222;
+  position: relative;
 }
-.sticky .n a {
+.sticky .n > a {
   text-decoration: none;
   color: #222;
 }
-.sticky .n div {
+.sticky .n > div {
+  width: 100px;
   display: none;
-  text-align: left;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  transition: 0.5s;
 }
-.sticky .n:hover a {
+.sticky .n > div > a {
   color: #FFAD00;
 }
-.sticky .n:hover div {
-  display: inline-block;
+.sticky .n:hover > div {
+  display: block;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   color: #FFAD00;
+  transform: translateX(-30px);
 }
-
-.ftr {
+.sticky .ftr {
   width: 100%;
   height: 340px;
   background-color: #fff;
   position: relative;
   margin-bottom: 0%;
 }
-.ftr .up h2 {
+.sticky .ftr .up h2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -195,11 +208,11 @@ html {
   margin-left: 270px;
   padding-top: 80px;
 }
-.ftr .up .link {
+.sticky .ftr .up .link {
   margin-left: 270px;
   margin-top: 30px;
 }
-.ftr .up .link a {
+.sticky .ftr .up .link a {
   width: 12%;
   color: #222;
   font-family: "Montserrat", sans-serif;
@@ -207,20 +220,20 @@ html {
   font-weight: 600;
   font-size: 25px;
 }
-.ftr .up .link a:nth-child(3) {
+.sticky .ftr .up .link a:nth-child(3) {
   padding-left: 20px;
 }
-.ftr .up .link a:nth-child(4) {
+.sticky .ftr .up .link a:nth-child(4) {
   padding-left: 60px;
 }
-.ftr .up .arw {
+.sticky .ftr .up .arw {
   position: absolute;
   right: 10%;
 }
-.ftr .up .arw img {
+.sticky .ftr .up .arw img {
   width: 180px;
   height: 100px;
 }
-.ftr .dwn {
+.sticky .ftr .dwn {
   margin: 50px 0 0 268px;
 }/*# sourceMappingURL=sub4.css.map */

@@ -194,6 +194,7 @@ html {
   position: fixed;
   bottom: 5%;
   right: 3%;
+  z-index: 99;
 }
 .sticky .p {
   font-family: "Montserrat", sans-serif;
@@ -201,27 +202,34 @@ html {
   font-weight: 700;
   font-size: 30px;
   color: #222;
+  position: relative;
 }
-.sticky .p a {
+.sticky .p > a {
   text-decoration: none;
   color: #222;
 }
-.sticky .p div {
+.sticky .p > div {
+  width: 100px;
   display: none;
-  text-align: left;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  transition: 0.5s;
 }
-.sticky .p:hover a {
+.sticky .p > div > a {
   color: #FFAD00;
 }
-.sticky .p:hover div {
-  display: inline-block;
+.sticky .p:hover > div {
+  display: block;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   color: #FFAD00;
+  transform: translateX(-30px);
 }
-.sticky p img {
+.sticky > p > img {
   padding-left: 10px;
 }
 .sticky .n {
@@ -230,25 +238,32 @@ html {
   font-weight: 700;
   font-size: 30px;
   color: #222;
+  position: relative;
 }
-.sticky .n a {
+.sticky .n > a {
   text-decoration: none;
   color: #222;
 }
-.sticky .n div {
+.sticky .n > div {
+  width: 100px;
   display: none;
-  text-align: left;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  transition: 0.5s;
 }
-.sticky .n:hover a {
+.sticky .n > div > a {
   color: #FFAD00;
 }
-.sticky .n:hover div {
-  display: inline-block;
+.sticky .n:hover > div {
+  display: block;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   color: #FFAD00;
+  transform: translateX(-30px);
 }
 
 .ftr {

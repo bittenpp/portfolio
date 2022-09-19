@@ -117,6 +117,10 @@ html {
             clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
   }
 }
+.pg2 {
+  overflow: hidden;
+  position: relative;
+}
 .pg2 div img {
   position: relative;
   width: 100%;
@@ -126,7 +130,7 @@ html {
   font-family: "Montserrat", sans-serif;
   position: absolute;
   color: #EEEDEB;
-  top: 1200px;
+  top: 200px;
   left: 235px;
   font-size: 85px;
   font-weight: 300;
@@ -157,7 +161,7 @@ html {
   height: 120px;
   position: absolute;
   right: 250px;
-  top: 1600px;
+  top: 600px;
 }
 .pg2.active span:nth-child(1) {
   -webkit-animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
@@ -506,6 +510,74 @@ html {
   font-weight: 400;
 }
 .pg6 .line p img {
+  width: 72%;
+  margin-left: 260px;
+  margin-top: 20px;
+}
+
+.pg7 {
+  position: relative;
+}
+.pg7 .top {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin: 95px auto;
+}
+.pg7 .top h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.pg7 .top div {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  transform: translateX(-210px);
+  padding-top: 10px;
+}
+.pg7 .top a img {
+  width: 50px;
+  height: 50px;
+}
+.pg7 .middle {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin: 80px auto;
+}
+.pg7 .middle div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.pg7 .middle p img {
+  width: 920px;
+  height: 662px;
+}
+.pg7 .btm {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  vertical-align: middle;
+  position: absolute;
+  top: 800px;
+  left: 260px;
+}
+.pg7 .btm h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.pg7 .btm p img {
+  margin-top: 10px;
+}
+.pg7 .btm div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.pg7 .line p img {
   width: 72%;
   margin-left: 260px;
   margin-top: 20px;

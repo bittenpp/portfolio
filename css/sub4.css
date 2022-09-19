@@ -193,14 +193,15 @@ html {
   color: #FFAD00;
   transform: translateX(-30px);
 }
-.sticky .ftr {
+
+.ftr {
   width: 100%;
   height: 340px;
   background-color: #fff;
   position: relative;
   margin-bottom: 0%;
 }
-.sticky .ftr .up h2 {
+.ftr .up h2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -208,11 +209,11 @@ html {
   margin-left: 270px;
   padding-top: 80px;
 }
-.sticky .ftr .up .link {
+.ftr .up .link {
   margin-left: 270px;
   margin-top: 30px;
 }
-.sticky .ftr .up .link a {
+.ftr .up .link a {
   width: 12%;
   color: #222;
   font-family: "Montserrat", sans-serif;
@@ -220,20 +221,20 @@ html {
   font-weight: 600;
   font-size: 25px;
 }
-.sticky .ftr .up .link a:nth-child(3) {
+.ftr .up .link a:nth-child(3) {
   padding-left: 20px;
 }
-.sticky .ftr .up .link a:nth-child(4) {
+.ftr .up .link a:nth-child(4) {
   padding-left: 60px;
 }
-.sticky .ftr .up .arw {
+.ftr .up .arw {
   position: absolute;
   right: 10%;
 }
-.sticky .ftr .up .arw img {
+.ftr .up .arw img {
   width: 180px;
   height: 100px;
 }
-.sticky .ftr .dwn {
+.ftr .dwn {
   margin: 50px 0 0 268px;
 }/*# sourceMappingURL=sub4.css.map */

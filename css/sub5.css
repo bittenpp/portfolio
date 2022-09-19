@@ -12,27 +12,26 @@ html {
   height: 650px;
 }
 .pg1 p {
-  margin-left: 16%;
-  margin-top: 240px;
+  margin-left: 41%;
+  margin-top: 120px;
 }
 .pg1 p img {
-  width: 346px;
+  width: 345px;
   height: 30px;
 }
 .pg1 .txt h2 {
-  text-align: left;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 130px;
-  line-height: 1;
   color: #222;
-  padding-top: 40px;
-  margin-left: 16%;
+  padding-top: 100px;
+  margin-left: 14%;
 }
 .pg1 .txt p {
-  margin-left: 46%;
-  transform: translateY(-600px);
+  margin-left: 22%;
+  transform: translateY(-350px);
 }
 .pg1 .txt p img {
   width: 170px;
@@ -42,11 +41,10 @@ html {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
-  color: rgb(64, 64, 64);
-  text-align: left;
-  transform: translateY(-370px);
-  margin-left: 16.2%;
+  font-size: 30px;
+  color: #222;
+  text-align: center;
+  transform: translateY(-250px);
 }
 .pg1 .txt .mini {
   font-family: "Montserrat", sans-serif;
@@ -54,9 +52,8 @@ html {
   font-weight: 500;
   font-size: 20px;
   color: #FFAD00;
-  text-align: left;
-  margin-left: 16.2%;
-  transform: translateY(-360px);
+  text-align: center;
+  transform: translateY(-240px);
 }
 .pg1 .txt .btm {
   font-family: "Montserrat", sans-serif;
@@ -64,176 +61,6 @@ html {
   font-weight: 400;
   font-size: 15px;
   color: #222;
-  text-align: left;
-  margin-left: 16.2%;
-  transform: translateY(-350px);
-}
-
-.pg2 img {
-  width: 100%;
-}
-
-.pg3 img {
-  width: 100%;
-}
-
-.pg4 img {
-  width: 100%;
-}
-
-.sticky {
-  margin-left: 95%;
-  position: fixed;
-  bottom: 5%;
-  right: 3%;
-  z-index: 99;
-}
-.sticky .p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  color: #222;
-  position: relative;
-}
-.sticky .p > a {
-  text-decoration: none;
-  color: #222;
-}
-.sticky .p > div {
-  width: 100px;
-  display: none;
-  text-align: right;
-  position: absolute;
-  right: 0;
-  bottom: 25%;
-  transition: 0.5s;
-}
-.sticky .p > div > a {
-  color: #FFAD00;
-}
-.sticky .p:hover > div {
-  display: block;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #FFAD00;
-  transform: translateX(-30px);
-}
-.sticky > p > img {
-  padding-left: 10px;
-}
-.sticky .n {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  color: #222;
-  position: relative;
-}
-.sticky .n > a {
-  text-decoration: none;
-  color: #222;
-}
-.sticky .n > div {
-  width: 100px;
-  display: none;
-  text-align: right;
-  position: absolute;
-  right: 0;
-  bottom: 25%;
-  transition: 0.5s;
-}
-.sticky .n > div > a {
-  color: #FFAD00;
-}
-.sticky .n:hover > div {
-  display: block;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #FFAD00;
-  transform: translateX(-30px);
-}
-
-.pg13 {
-  width: 100%;
-  height: 340px;
-  background-color: #fff;
-  position: relative;
-}
-.pg13 .sq {
   text-align: center;
-}
-.pg13 .sq h2 {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 80px;
-  line-height: 25px;
-  position: absolute;
-  left: 29%;
-  top: 35%;
-  z-index: 99;
-}
-.pg13 .sq div {
-  position: absolute;
-  left: 29%;
-  top: 30%;
-  z-index: 1;
-}
-.pg13 .sq div img {
-  width: 830px;
-  height: 73px;
-}
-.pg13 p {
-  text-align: center;
-  padding-top: 220px;
-}
-
-.ftr {
-  width: 100%;
-  height: 340px;
-  background-color: #fff;
-  position: relative;
-  margin-bottom: 0%;
-}
-.ftr .up h2 {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  margin-left: 270px;
-  padding-top: 80px;
-}
-.ftr .up .link {
-  margin-left: 270px;
-  margin-top: 30px;
-}
-.ftr .up .link a {
-  width: 12%;
-  color: #222;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-}
-.ftr .up .link a:nth-child(3) {
-  padding-left: 20px;
-}
-.ftr .up .link a:nth-child(4) {
-  padding-left: 60px;
-}
-.ftr .up .arw {
-  position: absolute;
-  right: 10%;
-}
-.ftr .up .arw img {
-  width: 180px;
-  height: 100px;
-}
-.ftr .dwn {
-  margin: 50px 0 0 268px;
+  transform: translateY(-230px);
 }/*# sourceMappingURL=sub5.css.map */

@@ -132,22 +132,29 @@ header{
             }
         }
         .right{
-            div{
+            color: #FFAD00;
+            text-decoration: none;
+            a{
+                div{
                 font-family: 'Montserrat', sans-serif;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 20px;
-                transform: translateX(-550px);
+                transform: translateX(-530px);
                 color: #FFAD00;
                 margin-bottom: 15px;
+                padding-left: 150px;
+                }
             }
-            p{
-                font-family: 'Montserrat', sans-serif;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 20px;
-                color: #FFAD00;
-                transform: translateX(-450px);
+            a{
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #FFAD00;
+                    transform: translateX(-450px);
+                }
             }
         }
     }
